@@ -1,0 +1,2 @@
+ALTER TABLE public.links ADD COLUMN use_favicon boolean NOT NULL DEFAULT false;
+COMMENT ON COLUMN public.links.use_favicon IS 'When true and no thumbnail is set, the public page shows the site favicon derived from the link URL.';

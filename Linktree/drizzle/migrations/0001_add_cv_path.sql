@@ -1,0 +1,1 @@
+alter table public.profile add column cv_path text;
